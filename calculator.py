@@ -23,7 +23,7 @@ def calculator():
     if len(re.findall(r"^\d.+\d$",expression)) == 0:
         # expression does not starts or ends with numbers
         output = {  "Error":"Invalid Expression",
-                    "Reason":"Expression does not starts or ends with number"
+                    "Reason":"Expression does not starts or ends with digit"
                 }
         return jsonify(output)
     

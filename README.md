@@ -1,6 +1,6 @@
 # SIMPLE CALCULATOR api
 
-@author:* K R S Nandhan.*
+@author: K R S Nandhan.
 
 This is a simple calcluator api, user can call the api with a expression as a input parameter and,
 
